@@ -3,8 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@fluent-ui/core": "^0.25.3",
-    "@fluent-ui/icons": "^0.10.0",
+    "@fluentui/react": "^7.107.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
@@ -12,13 +11,18 @@
     "@types/node": "^12.12.27",
     "@types/react": "^16.9.19",
     "@types/react-dom": "^16.9.5",
-    "grommet": "^2.11.2",
-    "polished": "^3.5.1",
+    "@uifabric/fluent-theme": "^7.1.56",
+    "highlight.js": "^9.18.1",
+    "path-browserify": "^1.0.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.4.0",
-    "styled-components": "^5.0.1",
-    "typescript": "^3.7.5"
+    "rehype-highlight": "^4.0.0",
+    "rehype-react": "^5.0.1",
+    "remark-parse": "^8.0.0",
+    "remark-rehype": "^6.0.0",
+    "typescript": "^3.7.5",
+    "unified": "^9.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
